@@ -12,3 +12,6 @@ This project is a simple interactive **web application** built with **Streamlit*
   - Line chart of average price by production year.
   - Scatter plot showing relationship between mileage and price.
 
+### Project Struct
+[Uploading price.py…]()
+

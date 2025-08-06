@@ -9,7 +9,7 @@ This is an interactive web application built using **Streamlit** that predicts t
 -  Predict used car prices using machine learning
 -  User-friendly interface built with **Streamlit**
 -  Categorical data is handled automatically using one-hot encoding
--  Real-time data visualizations using **Matplotlib** and **Seaborn**
+-  Real-time data visualizations using **Matplotlib**
 -  Three key visualizations included:
   - **Bar chart** of car counts by manufacturer
   - **Line chart** of average price by production year
@@ -24,7 +24,6 @@ This is an interactive web application built using **Streamlit** that predicts t
 - Pandas
 - Scikit-learn
 - Matplotlib
-- Seaborn
 
 ---
 

@@ -44,6 +44,7 @@ streamlit run app.py
 ### Project Structure
 
 car-price-prediction/
+
 │
 ├── app.py                      
 ├── car_price_prediction.csv   

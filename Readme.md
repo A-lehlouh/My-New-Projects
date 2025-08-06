@@ -27,23 +27,9 @@ This is an interactive web application built using **Streamlit** that predicts t
 
 ---
 
-##  How to Run the App
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/car-price-prediction.git
-   cd car-price-prediction
-   
-Install dependencies:
-pip install -r requirements.txt
-
-Run the app:
-streamlit run app.py
-
 ### Project Structure
 
 car-price-prediction/
-
 ├── app.py                      
 ├── car_price_prediction.csv   
 ├── requirements.txt            

@@ -30,6 +30,8 @@ This is an interactive web application built using **Streamlit** that predicts t
 ### Project Structure
 
 car-price-prediction/
+
+
 ├── app.py                      
 ├── car_price_prediction.csv   
 ├── requirements.txt            

@@ -45,7 +45,6 @@ streamlit run app.py
 
 car-price-prediction/
 
-│
 ├── app.py                      
 ├── car_price_prediction.csv   
 ├── requirements.txt            

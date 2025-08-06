@@ -1,17 +1,54 @@
-# Car Price Prediction Web App
+#  Car Price Prediction Web App
 
-This project is a simple interactive **web application** built with **Streamlit** that allows users to input car details and receive an **estimated price prediction** using a trained **Random Forest Regressor** model. It also includes visual data analysis using **Matplotlib** and **Seaborn**.
+This is an interactive web application built using **Streamlit** that predicts the price of a used car based on user inputs like manufacturer, production year, fuel type, engine volume, mileage, and more. The prediction is made using a **Random Forest Regressor** model trained on historical car pricing data.
 
-## Features
+---
 
-- Predict the **price of a used car** based on user input.
-- Live, interactive interface built with **Streamlit**.
-- Automatic **one-hot encoding** of categorical variables.
-- Real-time **visual analysis**:
-  - Bar chart of car counts by manufacturer.
-  - Line chart of average price by production year.
-  - Scatter plot showing relationship between mileage and price.
+##  Features
 
-### Project Struct
-[Uploading price.py…]()
-[car_price_prediction (Autosaved).csv]
+-  Predict used car prices using machine learning
+-  User-friendly interface built with **Streamlit**
+-  Categorical data is handled automatically using one-hot encoding
+-  Real-time data visualizations using **Matplotlib** and **Seaborn**
+-  Three key visualizations included:
+  - **Bar chart** of car counts by manufacturer
+  - **Line chart** of average price by production year
+  - **Scatter plot** showing price vs. mileage
+
+---
+
+##  Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+---
+
+##  How to Run the App
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/car-price-prediction.git
+   cd car-price-prediction
+   
+Install dependencies:
+pip install -r requirements.txt
+
+Run the app:
+streamlit run app.py
+
+### Project Structure
+
+car-price-prediction/
+│
+├── app.py                      
+├── car_price_prediction.csv   
+├── requirements.txt            
+├── encoded_data.xlsx          
+├── README.md                  
+└── models/
+    └── rf_model.pkl           
